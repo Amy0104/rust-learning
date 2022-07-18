@@ -1,0 +1,2 @@
+- Indent with four spaces, not a tab
+- End a line with a semicolon(;)
