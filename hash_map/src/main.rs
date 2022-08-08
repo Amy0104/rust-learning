@@ -48,6 +48,7 @@ fn main() {
     // biz();
     // entry();
     // update();
-    let mut v = vec![-5, 4, 1, -3, 2];
-    let mut i = v.len();
+    let v = vec![-5, 4, 1, -3, 2];
+    let median = v.get(v.len() / 2);
+    println!("{:?}", median.unwrap());
 }
